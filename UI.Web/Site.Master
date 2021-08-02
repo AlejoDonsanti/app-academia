@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="UI.Web.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<title>Academia</title>
+	<link href="estilos.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>  
+	
+	<header id="inicio">
+		<h1 id="titulo">Academia</h1>
+	</header>
+    <asp:panel runat="server" id="header">
+	<nav id="navbar">
+		<ul>
+			<li><a href="usuarios.aspx">Usuarios</a></li>
+			<li><a href="Especialidades.aspx">Especialidades</a></li>
+			<li><a href="Materias.aspx">Materias</a></li>
+			<li><a href="Planes.aspx">Planes</a></li>
+			<li><a href="Comisiones.aspx">Comisiones</a></li>
+			<li><a href="Cursos.aspx">Cursos</a></li>
+			<li><a href="CargarNotas.aspx">Notas</a></li>
+		</ul>
+	</nav>
+	</asp:panel>
+	<div>
+	<form id="bodyForm" runat="server">
+        <asp:ContentPlaceHolder ID="bodyContentPlaceHolder" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+	</div>
+</body>
+</html>

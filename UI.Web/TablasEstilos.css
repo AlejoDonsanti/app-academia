@@ -1,0 +1,15 @@
+﻿body {
+    align-items:center;
+}
+
+table{
+    background-color:aqua;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:20px;
+}
+.botones,.fa-table{
+    background-color:forestgreen;
+    text-align:center;
+    
+}
